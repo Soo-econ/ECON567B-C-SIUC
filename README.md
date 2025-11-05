@@ -74,7 +74,8 @@ Since `xtxet` requires the panel identifier to be numeric, you can convert a str
 ```
 encode state, gen(st_id) 
 ```
-This creates a new numerical variable `st_id` corresponding to the string variable `state` :)
+This creates a new numerical variable `st_id` corresponding to the string variable `state` :) 
+> cf. for the numeric-looking strings (e.g., "100"), you can use `destring`
 
 <br>
 
