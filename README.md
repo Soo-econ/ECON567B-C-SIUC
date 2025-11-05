@@ -69,7 +69,19 @@ reg lpass y98 y99 y00 lfare ldist ldistsq
 
 <br>
 
-## [3] Problem Set 10.12.
+## [3] Problem Set 10.11.
+Since `xtxet` requires the panel identifier to be numeric, you can convert a string variable into a numeric variable using the `encode` command:
+```
+encode state, gen(st_id) 
+```
+This creates a new numerical variable `st_id` corresponding to the string variable `state` :)
+
+<br>
+
+
+
+
+## [4] Problem Set 10.12.
 We will use the dataset `WAGEPAN.DTA` to solve problem set 10.12.
 
 ```
