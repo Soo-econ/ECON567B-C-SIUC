@@ -1,4 +1,4 @@
-# ECON567B-SIUC, Fall 2025
+# ECON567B/C-SIUC
 
 **Stata Session** using datasets from __Jeffrey M. Wooldridge__'s <i>``Econometric Analysis of Cross Section and Panel Data.''</i>
 >  Instructor: **Soo Jeong Lee** (soojeong.lee@siu.edu)
