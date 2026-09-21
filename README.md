@@ -1,12 +1,22 @@
 # ECON567B/C-SIUC
 
-**Stata Session** using datasets from __Jeffrey M. Wooldridge__'s <i>``Econometric Analysis of Cross Section and Panel Data.''</i>
->  Instructor: **Soo Jeong Lee** (soojeong.lee@siu.edu)
-> 
-> _School of Analytics, Finance and Economics @ Southern Ililinois University Carbondale_
+This page contains **Stata and R materials for empirical exercises in ECON 567B/C** at Southern Illinois University Carbondale.
 
+Throughout the course, we will use these materials to work through selected examples, exercises, and empirical applications discussed in class. We will also use datasets from Jeffrey M. Wooldridge's textbooks:
 
-# First Stata Session
+- *Econometric Analysis of Cross Section and Panel Data*
+- *Introductory Econometrics: A Modern Approach*
+
+> Instructor: **Soo Jeong Lee**([soojeong.lee@siu.edu](mailto:soojeong.lee@siu.edu))
+>
+> *School of Analytics, Finance and Economics @ Southern Illinois University Carbondale*
+
+## Contents
+
+- [Stata Sessions](#stata-sessions)
+- [R Sessions](#r-sessions)
+
+# Stata Sessions
 In this session, we will cover __Problem Sets 8.15., 10.11.__ and __10.12. (RE/FE/FD estimators)__ from our textbook:
 
 > **Wooldridge, J. M. (2002), <i>``Econometric analysis of cross section and panel data,''</i> MIT press. Cambridge, ma, 108(2), 245-254.**
@@ -137,7 +147,8 @@ Similary, $y_{t+2}$ would be `F2.y`. `L'i'.` or  `F'i'.` indicates the $i$-th la
 <br>
 
 
-
-
+# R Sessions
+In this session, we will use the **Online version of Rstudio: <https://rstudio.cloud>**
+> You can also download the local version of RStudio from the official website for free.
 
 
