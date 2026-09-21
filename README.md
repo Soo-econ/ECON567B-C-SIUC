@@ -11,6 +11,9 @@ Throughout the course, we will use these materials to work through selected exam
 >
 > *School of Analytics, Finance and Economics @ Southern Illinois University Carbondale*
 
+This page is intended to serve as a starting point for each coding session.
+> More detailed instructions, additional materials, and homework assignments will be provided in class.
+
 ## Contents
 
 - [Stata Sessions](#stata-sessions)
