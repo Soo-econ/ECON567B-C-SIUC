@@ -33,7 +33,6 @@ Here, knitr:: refers directly to the knitr package, so we do not need to call li
 
 echo = TRUE, means that the R code itself will be shown in the output document.
 
-
 Here, knitr:: refers directly to the knitr package, so we do not need to call library(knitr) first. echo = TRUE, means that the R code itself will be shown in the output document.
 
 The same setting could also be written as:
@@ -60,13 +59,19 @@ Hello, This file provides guidance for our R session.
 
 ```{r}
 # four panes (Console, R script, Environment-, Packages-)
-# Run the current line or selected lines:
-    # Windows: Ctrl + Enter
 # Setting the Working Directory 
 getwd()
-#or setwd("/cloud/project/PS1")
-```
+#or setwd("/cloud/project/ECON567")
 
+## Keyboard Shortcuts
+# Run the current line or selected lines:
+    # Windows: Ctrl + Enter
+    # Mac: Command+Return/Enter (on a Mac)
+# Cntl+L ; Screen (console) should be refreshed/cleared
+#Creating a code chunk
+    # Windows: Ctrl+Alt+I 
+    #  Mac: Command+Option+I 
+```
 
 ```{r}
 # R as a calculator
@@ -76,9 +81,9 @@ sqrt(5)
 x<- 3
 y <- c(1, 2, 3, 4, 5, 6.7, 8)
 mean(y)
-
 x*y
-
+pnorm(-5)
+pnorm(1, mean=4, sd=0.6)
 # accessing the help files/ get particular function
 # ?mean
 # ?median
@@ -86,30 +91,15 @@ x*y
 
 
 
-## Keyboard Shortcuts
-```{r}
-# Run the line(R code)
-# ---->: Ctrl+Enter (OS)
-# ---->: Command+Return/Enter (on a Mac)
-
-# Cntl+L ; Screen (console) should be refreshed/cleared
-
-#R markdown
-#Creating a code chunk
-# ---->: Ctrl+Alt+I (OS)
-#----->: Command+Option+I (on a Mac)
-```
-
-
-
-
 # From here, I create a code chunk 
 
 ```{r}
-x<-8
-y<-4
-x+y 
+z <-8
+k <-4
+alpha+beta 
 wage2=wooldridge::wage2
+mean(wage2$college)
+summary(wage2$college)
 ```
 
 Comparing this PDF file with its Rmarkdown file would be helpful.
