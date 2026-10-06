@@ -96,7 +96,7 @@ pnorm(1, mean=4, sd=0.6)
 ```{r}
 z <-8
 k <-4
-alpha+beta 
+z+k 
 wage2=wooldridge::wage2
 mean(wage2$college)
 summary(wage2$college)
