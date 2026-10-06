@@ -102,4 +102,7 @@ mean(wage2$college)
 summary(wage2$college)
 ```
 
-Comparing this PDF file with its Rmarkdown file would be helpful.
+Comparing this PDF file with its R Markdown file would be helpful.
+
+I’ll also provide the problem set and detailed code in class!
+
