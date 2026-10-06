@@ -1,0 +1,115 @@
+---
+title: "ECON567B: R session"
+author: "Soo Jeong Lee"
+output: pdf_document
+---
+
+
+## Remember, never ever ever use `install.packages` in a code chunk.
+
+install.packages("wooldridge") 
+
+library(wooldridge)
+
+install.packages("knitr")
+
+install.packages("tinytex")
+
+tinytex::install_tinytex(bundle = "TinyTeX")
+
+
+<---- As you can see, paragraphs in R Markdown are separated by a blank line.
+
+To start a new paragraph, you need to hit Enter twice.
+
+
+
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here, knitr:: refers directly to the knitr package, so we do not need to call library(knitr) first.
+
+echo = TRUE, means that the R code itself will be shown in the output document.
+
+
+Here, knitr:: refers directly to the knitr package, so we do not need to call library(knitr) first. echo = TRUE, means that the R code itself will be shown in the output document.
+
+The same setting could also be written as:
+
+```{r, eval=FALSE}
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+Here, eval = FALSE means that this example code is displayed in the document but is not executed.
+
+
+
+## EC567B
+Hello, This file provides guidance for our R session.
+
+[1] Online version of Rstudio (https://rstudio.cloud)
+- You could download local ver. of Rstudio (from official website - for free).
+
+[2] How to generate your submission file by using RMarkdown"
+
+
+## Now, let's get started!
+
+```{r}
+# four panes (Console, R script, Environment-, Packages-)
+# Run the current line or selected lines:
+    # Windows: Ctrl + Enter
+# Setting the Working Directory 
+getwd()
+#or setwd("/cloud/project/PS1")
+```
+
+
+```{r}
+# R as a calculator
+1+1
+sqrt(5)
+5*(4-1)^2
+x<- 3
+y <- c(1, 2, 3, 4, 5, 6.7, 8)
+mean(y)
+
+x*y
+
+# accessing the help files/ get particular function
+# ?mean
+# ?median
+```
+
+
+
+## Keyboard Shortcuts
+```{r}
+# Run the line(R code)
+# ---->: Ctrl+Enter (OS)
+# ---->: Command+Return/Enter (on a Mac)
+
+# Cntl+L ; Screen (console) should be refreshed/cleared
+
+#R markdown
+#Creating a code chunk
+# ---->: Ctrl+Alt+I (OS)
+#----->: Command+Option+I (on a Mac)
+```
+
+
+
+
+# From here, I create a code chunk 
+
+```{r}
+x<-8
+y<-4
+x+y 
+wage2=wooldridge::wage2
+```
+
+Comparing this PDF file with its Rmarkdown file would be helpful.
