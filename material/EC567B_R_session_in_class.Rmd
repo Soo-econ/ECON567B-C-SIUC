@@ -95,11 +95,15 @@ pnorm(1, mean=4, sd=0.6)
 
 ```{r}
 z <-8
-k <-4
+(k <-4)
 z+k 
+```
+
+```{r}
 wage2=wooldridge::wage2
-mean(wage2$college)
-summary(wage2$college)
+mean(wage2$wage)
+
+summary(wage2$wage)
 ```
 
 Comparing this PDF file with its R Markdown file would be helpful.
