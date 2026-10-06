@@ -154,4 +154,6 @@ Similary, $y_{t+2}$ would be `F2.y`. `L'i'.` or  `F'i'.` indicates the $i$-th la
 In this session, we will use the **Online version of Rstudio: <https://rstudio.cloud>**
 > You can also download the local version of RStudio from the official website for free.
 
+>- [R Session Intro (PDF)](EC567B_R_session_in_class.pdf)
+>- [R Session Intro (R Markdown)](EC567B_R_session_in_class.Rmd)
 
